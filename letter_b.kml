@@ -14,48 +14,40 @@
             </LineString>
         </Placemark>
 
-        <!-- Top loop of the B -->
+        <!-- Top Loop of the B (Curved) -->
         <Placemark>
             <name>Top Loop</name>
-            <Polygon>
-                <outerBoundaryIs>
-                    <LinearRing>
-                        <coordinates>
-                            -122.0840,37.4235,0
-                            -122.0845,37.4240,0
-                            -122.0850,37.4240,0
-                            -122.0855,37.4235,0
-                            -122.0855,37.4225,0
-                            -122.0850,37.4220,0
-                            -122.0845,37.4220,0
-                            -122.0840,37.4225,0
-                            -122.0840,37.4235,0
-                        </coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
+            <LineString>
+                <coordinates>
+                    -122.0840,37.4230,0
+                    -122.0838,37.4232,0
+                    -122.0835,37.4233,0
+                    -122.0832,37.4232,0
+                    -122.0830,37.4230,0
+                    -122.0832,37.4228,0
+                    -122.0835,37.4227,0
+                    -122.0838,37.4228,0
+                    -122.0840,37.4230,0
+                </coordinates>
+            </LineString>
         </Placemark>
 
-        <!-- Bottom loop of the B -->
+        <!-- Bottom Loop of the B (Curved) -->
         <Placemark>
             <name>Bottom Loop</name>
-            <Polygon>
-                <outerBoundaryIs>
-                    <LinearRing>
-                        <coordinates>
-                            -122.0840,37.4215,0
-                            -122.0845,37.4220,0
-                            -122.0850,37.4220,0
-                            -122.0855,37.4215,0
-                            -122.0855,37.4205,0
-                            -122.0850,37.4200,0
-                            -122.0845,37.4200,0
-                            -122.0840,37.4205,0
-                            -122.0840,37.4215,0
-                        </coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
+            <LineString>
+                <coordinates>
+                    -122.0840,37.4210,0
+                    -122.0838,37.4212,0
+                    -122.0835,37.4213,0
+                    -122.0832,37.4212,0
+                    -122.0830,37.4210,0
+                    -122.0832,37.4208,0
+                    -122.0835,37.4207,0
+                    -122.0838,37.4208,0
+                    -122.0840,37.4210,0
+                </coordinates>
+            </LineString>
         </Placemark>
 
     </Document>
