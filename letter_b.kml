@@ -9,7 +9,7 @@
             <LineString>
                 <coordinates>
                     14.2681,40.8522,0  <!-- Top of Vertical Line -->
-                    14.2681,40.8485,0  <!-- Shortened and centered Bottom of Vertical Line -->
+                    14.2681,40.8470,0  <!-- Shortened and centered Bottom of Vertical Line -->
                 </coordinates>
             </LineString>
         </Placemark>
