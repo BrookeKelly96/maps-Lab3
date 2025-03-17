@@ -1,61 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-	<Document>
-		<name>Letter B</name>
+  <Document>
+    <name>Letter B KML</name>
 
-		<!-- Vertical Spine of B -->
-		<Placemark>
-			<name>Spine</name>
-			<LineString>
-				<coordinates>
-					 14.3753,40.6281,0  
-  					    14.3753,40.6261,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
+    <!-- Vertical Spine of B -->
+    <Placemark>
+      <name>Spine</name>
+      <LineString>
+        <coordinates>
+          14.3753,40.6281,0  <!-- Top of Vertical Line -->
+          14.3753,40.6255,0  <!-- Shortened and centered Bottom of Vertical Line -->
+        </coordinates>
+      </LineString>
+    </Placemark>
 
-		<!-- Top Loop (More Circular) -->
-		<Placemark>
-			<name>Top Loop</name>
-			<LineString>
-				<coordinates>
-					14.3758,40.6275,0
-					14.3762,40.6277,0
-					14.3766,40.6278,0
-					14.3770,40.6277,0
-					14.3774,40.6275,0
-					14.3775,40.6272,0
-					14.3774,40.6270,0
-					14.3770,40.6268,0
-					14.3766,40.6267,0
-					14.3762,40.6268,0
-					14.3758,40.6270,0
-				</coordinates>
-			</LineString>
-		</Placemark>
+    <!-- Top Loop (Half Circle) -->
+    <Placemark>
+      <name>Top Loop</name>
+      <LineString>
+        <coordinates>
+          14.3753,40.6281,0
+          14.3746,40.6279,0
+          14.3740,40.6276,0
+          14.3735,40.6272,0
+          14.3733,40.6267,0
+          14.3735,40.6262,0
+          14.3740,40.6259,0
+          14.3746,40.6257,0
+          14.3750,40.6258,0
+          14.3753,40.6260,0  <!-- Smooth connection back to the spine -->
+        </coordinates>
+      </LineString>
+    </Placemark>
 
-		<!-- Bottom Loop (More Circular) -->
-		<Placemark>
-			<name>Bottom Loop</name>
-			<LineString>
-				<coordinates>
-					14.3758,40.6245,0
-					14.3762,40.6247,0
-					14.3766,40.6248,0
-					14.3770,40.6247,0
-					14.3774,40.6245,0
-					14.3775,40.6242,0
-					14.3774,40.6240,0
-					14.3770,40.6238,0
-					14.3766,40.6237,0
-					14.3762,40.6238,0
-					14.3758,40.6240,0
-				</coordinates>
-			</LineString>
-		</Placemark>
+    <!-- Bottom Loop (Half Circle) -->
+    <Placemark>
+      <name>Bottom Loop</name>
+      <LineString>
+        <coordinates>
+          14.3753,40.6255,0  <!-- Starting point (same as bottom of spine) -->
+          14.3746,40.6252,0
+          14.3740,40.6249,0
+          14.3735,40.6247,0
+          14.3733,40.6245,0
+          14.3735,40.6243,0
+          14.3740,40.6241,0
+          14.3746,40.6240,0
+          14.3750,40.6242,0
+          14.3753,40.6243,0  <!-- Smooth connection back to the spine -->
+        </coordinates>
+      </LineString>
+    </Placemark>
 
-	</Document>
+  </Document>
 </kml>
-
 
 
